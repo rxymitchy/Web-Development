@@ -4,16 +4,23 @@
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport"  content = "width=device-width intial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sample Form</title>
+
+    <style>
+        button:hover {
+            background-color: #a8aea9;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Sample Form</h1>
-    
-    <form action="#" method="POST"></form>
-        <fieldset>
-            <legend>Personal Information</legend>
 
+    <form action="#" method="POST"></form>
+    <div class = "container highlight">
+        <fieldset>
+            <legend style="color:blue;">Personal Information</legend>
             <!-- Name Input -->
             <label for="name">Name:</label>
             <input type="name" id="name" name="name" placeholder="Enter Your Name" required><br><br>
@@ -42,11 +49,7 @@
             <!-- Comments Textarea -->
             <label for="comments">Comments:</label><br>
             <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Write your comments here"></textarea><br><br>
-        </fieldset>
-
-        <fieldset>
-            <legend>Upload Audio and Video</legend>
-            
+        
             <!-- Audio Input -->
             <label for="audio">Upload Audio File:</label>
             <input type="file" id="audio" name="audio" accept="audio/*"><br><br>
@@ -54,7 +57,11 @@
             <!-- Video Input -->
             <label for="video">Upload Video File:</label>
             <input type="file" id="video" name="video" accept="video/*"><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
         </fieldset>
+    </div>
     </form>
 </body>
 

@@ -1,0 +1,47 @@
+/* External CSS */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #f0f8ff;
+}
+
+/* ID Selector */
+#unique-border {
+    border: 2px solid #4CAF50;
+    padding: 15px;
+}

@@ -1,0 +1,41 @@
+div {
+    position: relative;
+    top: 10px; /* Moves down */
+    left: 20px; /* Moves right */
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Defines 3 columns */
+    grid-gap: 10px; /* Adds spacing */
+}
+/*div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+img {
+    float: right;
+    margin: 10px;
+}
+
+.container {
+    display: flex; /*activates flexbox for a container
+    flex-direction: column; /*sets the direction; row or column
+    justify-content: space-between; /*aligns horizontally
+    align-items: center; /*aligns vertically
+}*/
+
