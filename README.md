@@ -2,7 +2,6 @@ Here's a clean and professional `README.md` based on the repo info and files you
 
 ---
 
-````markdown
 # Web Development Basics — Responsive Website Designs
 
 This repository contains foundational web development projects showcasing responsive website design, multimedia integration, and form handling using **HTML5**, **CSS**, and **JavaScript**.
@@ -62,7 +61,7 @@ The project covers:
    ```bash
    git clone https://github.com/rxymitchy/Web-Development.git
    cd Web-Development
-````
+
 
 2. Open any `.html` file in your browser to explore the pages and their features.
 
