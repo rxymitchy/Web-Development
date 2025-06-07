@@ -82,5 +82,3 @@ This project is open-source and available under the MIT License.
 ---
 
 *Built with ❤️ to strengthen foundational web development skills.*
-
-```
