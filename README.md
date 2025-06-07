@@ -1,7 +1,3 @@
-Here's a clean and professional `README.md` based on the repo info and files you shared — focusing on your **Web Development basics project** with responsive designs, multimedia, and forms using HTML5, CSS, and JavaScript:
-
----
-
 # Web Development Basics — Responsive Website Designs
 
 This repository contains foundational web development projects showcasing responsive website design, multimedia integration, and form handling using **HTML5**, **CSS**, and **JavaScript**.
@@ -88,4 +84,3 @@ This project is open-source and available under the MIT License.
 *Built with ❤️ to strengthen foundational web development skills.*
 
 ```
-
